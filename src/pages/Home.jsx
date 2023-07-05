@@ -9,7 +9,8 @@ import { Container, Row, Col, ListGroup, ListGroupItem } from "reactstrap";
 import { Link } from "react-router-dom";
 
 import Category from "../components/ui/Category";
-import "../styles/home.css";
+
+// import "../styles/home.css";
 
 // import featureImg01 from "../assets/images/service-01.png";
 // import featureImg02 from "../assets/images/service-02.png";

@@ -1,0 +1,32 @@
+.popfilter {
+  background-color: #006859;
+  text-align: center;
+  padding: 3rem;
+  height: 90vh;
+  /* //delete */
+  /* margin: 1rem 0; */
+}
+.food_category {
+  margin:  3rem 14rem;
+  background-color: var(--darkpink);
+  border-radius: 1rem;
+  padding: 0.6rem;
+}
+
+.food__category button {
+  /* border: white; */
+  /* outline: none; */
+  /* background: transparent; */
+  color: #fff;
+}
+
+/* .food__category button img {
+  width: 20px;
+  height: 20px;
+} */
+
+.foodBtnActive {
+  background: #fff !important;
+  border-radius: 1rem;
+  color: var(--darkpink) !important;
+}

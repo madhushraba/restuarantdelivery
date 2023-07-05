@@ -1,8 +1,8 @@
-.wrap {
-  /* padding: 0;margin: 0; */
+.wrap {position: sticky;
   display: flex;
   justify-content: space-between;
-  background-color: #ead3d3;
+  background-color: #006859;
+  box-shadow: #821414 4px 4px 4px ;
   /* padding: 0 14rem; */
   padding: var(--padding14);
   color: var(--darkpink);
@@ -11,7 +11,7 @@
 .leftlogo {
   display: flex;
   align-items: center;
-  padding: 1rem;
+  /* padding: 1rem; */
   justify-content: center;
 }
 .imgnav {
@@ -20,6 +20,7 @@
 }
 .midpages {
   display: flex;
+  /* padding: 0 14rem; */
   align-items: center;
 }
 .li {
@@ -33,7 +34,7 @@ font-size: 1rem;}
 
 .active_menu {
   /* background-color: #fff; */
-  color: #000;
+  color: #fff;
 }
 
 .right {

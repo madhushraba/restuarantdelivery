@@ -1,0 +1,66 @@
+.home {
+  height: 90vh;
+  display: flex;
+  /* margin: 1rem; */
+  /* margin: 1rem; */
+  /* padding: 1rem 14rem; */
+  padding: var(--padding14);
+  align-items: center;
+  justify-content: center;
+}
+.homeleft {
+  flex: 1;
+  height: 17rem;
+  /* border: 2px solid red; */
+  padding: 2rem;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+.homep {
+  padding: 1rem 0;
+}
+.homeright {
+  flex: 1;
+  /* border: 2px solid rgb(61, 175, 85); */
+  padding: 2rem;
+
+  height: 17rem;
+
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+.spanhome {
+  color: var(--darkpink);
+}
+.hero_service {
+  margin: 1rem 0;
+  color: #353030;
+  font-size: 0.83rem;
+  /* padding-left: 1rem; */
+
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  padding: 0.31rem;
+}
+.shipping_icon {
+  background-color: var(--darkpink);
+  color: #ffffff;
+  padding: 0.41rem;
+  /* padding-left: 1rem; */
+  margin: 0.4rem;
+  /* align-items: center; */
+  border-radius: 50%;
+}
+.imghome {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+}
+/* .btnx{
+    margin-left: 1rem;
+    padding-left: 1rem;
+    
+} */
