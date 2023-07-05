@@ -16,13 +16,13 @@ function App() {
       {/* <Layout /> */}
       <Nav/>
       <Home2/>
-      <Category/>
+      {/* <Category/>
       <Serve/>
       <Popfood/>
       <Whyus/>
       <Hotpizza/>
       <TestimonialSlider/>
-      <Footer/>
+      <Footer/> */}
     </>
   );
 }
