@@ -1,14 +1,13 @@
-
 import "./App.css";
-import Layout from './components/Layout'
+import Layout from "./components/Layout";
 
 function App() {
-  // const [count, setCount] = useState(0);
-
-  return <>Madhu food del
-  <Layout/>
-  </>;
-
+  
+  return (
+    <>
+      <Layout />
+    </>
+  );
 }
 
 export default App;
