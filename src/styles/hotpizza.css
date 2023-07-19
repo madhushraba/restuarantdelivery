@@ -25,3 +25,9 @@
     height: 190px;
     transition: .3s ease-out;
 }
+.hotbox{
+    /* background-color: #554b4b; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

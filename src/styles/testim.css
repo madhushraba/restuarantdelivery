@@ -1,4 +1,5 @@
 .testi{
     height:  60vh;
     background-color: #d5edf1;
+    padding: var(--padding14);
 }

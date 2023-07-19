@@ -1,3 +1,6 @@
+.footer{
+  background-color: var(--green);
+}
 .footers {
   display: flex;
   padding: 4rem 12rem;
