@@ -1,7 +1,27 @@
 .hotpiz{
-    background-color: #d59ce9;
-    height: 40vh;
+    /* display: flex; */
+    /* background-color: #d59ce9; */
+    height: 50vh;
+    color: var(--darkpink);
     text-align: center;
     padding: 3rem 0;
 
+}
+.hotpizz{
+    display: flex;
+    /* background-color: #999494; */
+    align-items: center;
+    justify-content: center;
+    /* padding: 0 14rem; */
+}
+.imghot{
+    width: 200px;
+    height: 180px;
+    border-radius: 1rem;
+    /* margin: 1rem; */
+}
+.imghot:hover{
+    width: 210px;
+    height: 190px;
+    transition: .3s ease-out;
 }

@@ -1,38 +1,42 @@
 .servepage {
-  height: 80vh;
+  /* height: 90vh; */
+  color: var(--darkpink);
   /* display: flex; */
   align-items: center;
   justify-content: center;
-  padding: 4rem;
+  /* padding: 4rem; */
   /* background-color: #c19797; */
 }
 .servebox {
   padding: 2rem;
+  /* background-color: #676161; */
   /* margin: 1rem; */
 }
 
 .serve {
-  /* padding:0 30%; */
-  /* margin: 3rem; */
-  /* display: flex; */
-  justify-content: center;
   text-align: center;
 }
+.serv { 
 
-.service {
   display: flex;
-  padding: var(--padding14);
-  justify-content: space-between;
-  /* border: 1px solid black; */
+  padding:  0 14rem;
 }
-
+.service {
+  /* background-color: #e3cce4; */
+  /* justify-content: space-around; */
+  /* padding: 0 13rem; */
+}
 .ser {
-  border: 1px solid black;
-  padding: 2rem;
+  padding: 3rem ;
 }
 .imgserve{
-    height: 5rem;
-    padding: 12px;
-    margin: 1rem;
-    border: 2px solid white;
+  width: 260px;
+  height: 200px;
+  border-radius: 1rem;
+}
+.imgserve:hover{
+  width: 280px;
+  height: 220px;
+  border-radius: 1rem;
+  transition: .3s ease-out;
 }

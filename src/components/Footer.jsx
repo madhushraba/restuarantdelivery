@@ -8,11 +8,10 @@ const Footer = () => {
     <footer className="footer">
       <div className="footers">
         <div className="leftx">
-          <img src="" alt="logo" />
+          <img src="https://i.pinimg.com/736x/54/b1/6a/54b16ad8feba1c907247881ea4e50313.jpg" className="imgnav" alt="logo" />
           <h3>Tastyy zomalina</h3>
           <p>
-            ipsum dolor sit amet consectetur adipisicing elit. Animi qui
-            molestiae voluptates.
+           Your retreat and luxury dine in experience
           </p>
         </div>
         <div className="leftmid">
@@ -32,7 +31,7 @@ const Footer = () => {
           <h3>Newsletter</h3>
           <p>subscribe to our newsletter</p>
           <form>
-            <input type="text" className="form" placeholder="gfdc" />
+            <input type="email" className="inpform" placeholder="Enter email..." />
           </form>
         </div>
       </div>

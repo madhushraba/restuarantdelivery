@@ -3,6 +3,9 @@ import React from "react";
 import "../../styles/whyus.css";
 import { RiCheckboxCircleLine } from "react-icons/ri";
 
+
+
+
 const Whyus = () => {
   return (
     <div className="why">

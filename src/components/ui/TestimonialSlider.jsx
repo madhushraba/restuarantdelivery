@@ -1,8 +1,11 @@
 import React from 'react'
 
+
+import '../../styles/testim.css'
+
 const TestimonialSlider = () => {
   return (
-    <div>TestimonialSlider</div>
+    <div className='testi'>TestimonialSlider</div>
   )
 }
 

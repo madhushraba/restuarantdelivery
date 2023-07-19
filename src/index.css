@@ -4,6 +4,7 @@
   padding: 0;
   margin: 0;
   --darkpink:#9f092f;
+  --lesspink:#c93b5e;
   --padding14: 1rem 14rem;
   font-family: poppins, sans-serif;
 }
@@ -12,5 +13,17 @@ a{
   text-decoration: none;
 }
 svg{
-  padding: 0 .61rem;
+  padding: 0 .31rem;
+}
+
+h1:hover{
+  font-size: 35px;
+  color: #0a6d35;
+  transition: .3s ease-out;
+
+}
+button:hover{
+  padding: 12px;
+  background: var(--lesspink);
+  transition: .3s ease-out;
 }

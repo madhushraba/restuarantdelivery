@@ -22,7 +22,7 @@ const Home2 = () => {
             <h5 className="mb-3">Easy way to make an order</h5>
 
             <h1 className="mb-4 hero__title">
-              <span className="spanhome">HUNGRY?</span> No need to wait... <br />{" "}
+              <span className="spanhome">HUNGRY?</span> No need to wait...{" "}
               instant delivery at
               <span className="spanhome"> your door</span>
             </h1>

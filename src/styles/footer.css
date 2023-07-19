@@ -1,7 +1,8 @@
 .footers {
   display: flex;
   padding: 4rem 12rem;
-  background-color: #abdbb581;
+  /* background-color: #abdbb581; */
+  color: var(--darkpink);
 }
 .leftmid,
 .rightmid,
@@ -13,4 +14,13 @@
 
 h3{
   padding: 1rem 0;
+  /* margin: 12px; */
+}
+h5{
+  padding:9px 0;
+}
+.inpform{
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: 0.5em 0;
 }

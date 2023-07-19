@@ -18,6 +18,11 @@
   height: 2rem;
   border-radius: 50%;
 }
+.imgnav:hover {
+  height: 2.2rem;
+  transition: .3s ease-out;
+  /* border-radius: 50%; */
+}
 .midpages {
   display: flex;
   /* padding: 0 14rem; */

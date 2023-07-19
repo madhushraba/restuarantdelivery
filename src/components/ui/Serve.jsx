@@ -1,6 +1,25 @@
 import React from "react";
 
 import "../../styles/serve.css";
+const featureData = [
+  {
+    title: "Quick Delivery",
+    imgUrl: 'https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg?auto=compress&cs=tinysrgb&w=600',
+    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, doloremque.",
+  },
+
+  {
+    title: "Super Dine In",
+    imgUrl: 'https://images.pexels.com/photos/7322199/pexels-photo-7322199.jpeg?auto=compress&cs=tinysrgb&w=600',
+    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, doloremque.",
+  },
+  {
+    title: "Easy Pick Up",
+    imgUrl: 'https://media.istockphoto.com/id/1373129580/photo/pepperoni-pizza.jpg?b=1&s=612x612&w=0&k=20&c=LH7OLAonkx0qbuSsWdCx2_4iPdqGxXhAICT8-pgGFzw=',
+    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, doloremque.",
+  },
+];
+
 const Serve = () => {
   return (
     <div className="servepage">
@@ -20,24 +39,23 @@ const Serve = () => {
             ex aliquid corrupti tenetur, unde cumque quod.
           </p>
         </div>
-
-        <div className="service">
-          <div className="ser">
-            <img className="imgserve" src="fvf" alt=" imgg" />
-            <h4>Quick Delivery</h4>
-            <p>Lorem ipsum dolor sit.</p>
-          </div>
-          <div className="ser">
-            <img className="imgserve" src="fvf" alt=" imgg" />
-            <h4>Super Dine In</h4>
-            <p>Lorem ipsum dolor sit.</p>
-          </div>
-          <div className="ser">
-            <img className="imgserve" src="fvf" alt=" imgg" />
-            <h4>Easy Takeaway</h4>
-            <p>Lorem ipsum dolor sit.</p>
-          </div>
+        <div className="serv">
+          {featureData.map((item, index) => (
+            <div  className="service">
+              <div key={index} className="ser">
+                <img
+                  src={item.imgUrl}
+                  alt="feature-img"
+                  className="imgserve"
+                />
+                <h5 className=" sertitle">{item.title}</h5>
+                <p>{item.desc}</p>
+              </div>
+            </div>
+          ))}
         </div>
+
+    
       </div>
     </div>
   );
