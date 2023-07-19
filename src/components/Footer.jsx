@@ -1,120 +1,41 @@
-// import React from 'react'
-
-// import { Row } from 'reactstrap'
-// import '../styles/footer.css'
-// const Footer = () => {
-//   return (
-//     <div className='footer'>Footer</div>
-//   )
-// }
-
-// export default Footer
-
 import React from "react";
-import { Container, Row, Col, ListGroup, ListGroupItem } from "reactstrap";
-// import logo from "../../assets/images/res-logo.png";
 
 import "../styles/footer.css";
 
-import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <footer className="footer">
-      <Container>
-        <Row>
-          <Col lg="3" md="4" sm="6">
-            {/* <col> */}
-            <div className=" footer__logo text-start">
-              <img src="" alt="logo" />
-              <h5>Tasty Treat</h5>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Nesciunt pariatur accusamus
-              </p>
-            </div>
-          </Col>
-          {/* </col> */}
-          <Col lg="3" md="4" sm="6">
-            <h5 className="footer__title">Delivery Time</h5>
-            <ListGroup className="deliver__time-list">
-              <ListGroupItem className=" delivery__time-item border-0 ps-0">
-                <span>Sunday - Thursday</span>
-                <p>10:00am - 11:00pm</p>
-              </ListGroupItem>
-
-              <ListGroupItem className=" delivery__time-item border-0 ps-0">
-                <span>Friday - Saturday</span>
-                <p>Off day</p>
-              </ListGroupItem>
-            </ListGroup>
-          </Col>
-
-          <Col lg="3" md="4" sm="6">
-            <h5 className="footer__title">Contact</h5>
-            <ListGroup className="deliver__time-list">
-              <ListGroupItem className=" delivery__time-item border-0 ps-0">
-                <p>Location: ZindaBazar, Sylhet-3100, Bangladesh</p>
-              </ListGroupItem>
-              <ListGroupItem className=" delivery__time-item border-0 ps-0">
-                <span>Phone: 01712345678</span>
-              </ListGroupItem>
-
-              <ListGroupItem className=" delivery__time-item border-0 ps-0">
-                <span>Email: example@gmail.com</span>
-              </ListGroupItem>
-            </ListGroup>
-          </Col>
-
-          <Col lg="3" md="4" sm="6">
-            <h5 className="footer__title">Newsletter</h5>
-            <p>Subscribe our newsletter</p>
-            <div className="newsletter">
-              <input type="email" placeholder="Enter your email" />
-              <span>
-                <i class="ri-send-plane-line">submit</i>
-              </span>
-            </div>
-          </Col>
-        </Row>
-
-        <Row className="mt-5">
-          <Col lg="6" md="6">
-            <p className="copyright__text">
-              Copyright - 2022, website made by Muhibur Rahman. All Rights
-              Reserved.
-            </p>
-          </Col>
-          <Col lg="6" md="6">
-            <div className="social__links d-flex align-items-center gap-4 justify-content-end">
-              <p className="m-0">Follow: </p>
-              <span>
-                <Link to="https://www.facebook.com/muhib160">
-                  <i class="ri-facebook-line">fb</i>
-                </Link>
-              </span>
-
-              <span>
-                <Link to="https://github.com/muhib160">
-                  <i class="ri-github-line">git</i>
-                </Link>
-              </span>
-
-              <span>
-                <Link to=" https://www.youtube.com/c/MuhibsTechDiary">
-                  <i class="ri-youtube-line"> yt</i>
-                </Link>
-              </span>
-
-              <span>
-                <Link to=" https://www.linkedin.com/in/muhib160/">
-                  <i class="ri-linkedin-line">li</i>
-                </Link>
-              </span>
-            </div>
-          </Col>
-        </Row>
-      </Container>
+      <div className="footers">
+        <div className="leftx">
+          <img src="" alt="logo" />
+          <h3>Tastyy zomalina</h3>
+          <p>
+            ipsum dolor sit amet consectetur adipisicing elit. Animi qui
+            molestiae voluptates.
+          </p>
+        </div>
+        <div className="leftmid">
+          <h3>Delivery time</h3>
+          <h4>sun -thu</h4>
+          <p>10.00am-12.00pm</p>
+          <h4>fri -sat</h4>
+          <p>11.00am-4.00pm</p>
+        </div>
+        <div className="rightmid">
+          <h3>Contact</h3>
+          <h5>location:gfdsx</h5>
+          <h5>Phone:3546yu65i76</h5>
+          <h5>email:543212@3423.gefd</h5>
+        </div>
+        <div className="rightx">
+          <h3>Newsletter</h3>
+          <p>subscribe to our newsletter</p>
+          <form>
+            <input type="text" className="form" placeholder="gfdc" />
+          </form>
+        </div>
+      </div>
     </footer>
   );
 };

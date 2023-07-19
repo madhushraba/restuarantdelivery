@@ -1,4 +1,4 @@
-import "./App.css";
+// import "./App.css";
 import Layout from "./components/Layout";
 import Nav from "./components/nav/Nav";
 import Home2 from "./pages/Home2";
